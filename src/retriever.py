@@ -27,7 +27,7 @@ def test_retrieval(query):
     print("="*50)
     
     for i, (doc, score) in enumerate(results):
-        print(f"\n[{i+1}] Độ tương đồng (Score càng thấp càng khớp): {score:.4f}")
+        print(f"\n[{i+1}] Độ tương đồng: {score:.4f}")
         print(f"Nguồn: {doc.metadata.get('source', 'N/A')} - Trang: {doc.metadata.get('page', 'N/A')}")
         print(f"Nội dung: {doc.page_content[:200]}...")
         print("-" * 30)

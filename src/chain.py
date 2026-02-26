@@ -52,6 +52,6 @@ def get_rag_chain():
 
 if __name__ == "__main__":
     chain = get_rag_chain()
-    query = "Thời gian đào tạo chương trình kỹ sư chuyên sâu là bao lâu?"
+    query = "Chương trình đào tạo gồm bao nhiêu tín chỉ?"
     response = chain.invoke(query)
     print(f"\nChatbot trả lời:\n{response['result']}")
