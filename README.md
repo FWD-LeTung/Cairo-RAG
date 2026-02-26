@@ -1,4 +1,6 @@
 # Cairo-RAG
 
 ## Introduction
-<img src="demo\images\block-diagram.png" width="500"  height="600" style="center>
+<p align="center">
+<img src="demo\images\block-diagram.png" width="300">
+</p>
