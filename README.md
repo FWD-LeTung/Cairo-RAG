@@ -45,7 +45,7 @@ nội bộ một cách chính xác.
 3. **Thiết lập biến môi trường:**
     ```bash
     mkdir .env
-    echo "DEEPSEEK_API_KEY" > .env
+    echo "DEEPSEEK_API_KEY=" > .env
     ```
 4. **Demo:**
     ```bash
