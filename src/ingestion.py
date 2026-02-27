@@ -24,8 +24,8 @@ def build_vector_db():
     print(f"Đã chia thành {len(chunks)} đoạn văn bản nhỏ.")
 
     #Initialize Embedding Model
-    print("Đang khởi tạo Embedding model (BAAI/bge-m3)...")
-    model_name = "BAAI/bge-m3" # Model này hỗ trợ tiếng Việt cực tốt
+    print("Đang khởi tạo Embedding model (paraphrase-multilingual-MiniLM-L12-v2)...")
+    model_name = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2" # Model này hỗ trợ tiếng Việt cực tốt
     model_kwargs = {'device': 'cpu'} # Đổi thành 'cuda' nếu bạn có GPU
     encode_kwargs = {'normalize_embeddings': True}
     
