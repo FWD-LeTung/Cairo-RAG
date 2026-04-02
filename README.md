@@ -4,7 +4,7 @@
 ![uv](https://img.shields.io/badge/Managed%20by-uv-261230?style=flat-square&logo=uv&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# Cairo-RAG: Chatbot Tư vấn Trường Điện - Điện tử
+# Cairo-RAG: Chatbot Tư vấn chương trình KSCS
 
 **Cairo-RAG** là một hệ thống chatbot thông minh sử dụng kỹ thuật **RAG (Retrieval-Augmented Generation)**. Hệ thống đóng vai trò là chuyên gia tư vấn cho chương trình kỹ sư chuyên sâu tại **Trường Điện - Điện tử**, giúp giải đáp các thắc mắc dựa trên tài liệu 
 nội bộ một cách chính xác.
